@@ -57,4 +57,4 @@ confirm_password.addEventListener("change", () => {
 
 });
 
-submit.addEventListener("click", () => window.location.href = __dirname);
+submit.addEventListener("click", () => window.location.href = `${__dirname}/register.html`);
