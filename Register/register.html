@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Register</title>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <span class="navbar-brand navbar-item">HOSTING</span>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <ul class="navbar-nav">
+                    <li class="nav-item">Home</li>
+                    <li class="nav-item">Features</li>
+                    <li class="nav-item">Donations</li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="root">
+
+        <div class="register-form">
+
+            <h1 class="register-form-header">REGISTER</h1>
+        
+            <div class="username-form">
+                <h3>Username</h3>
+                <input type="text" placeholder="Username" name="username" id="username" required />
+            </div>
+
+            <div class="email-form">
+                <h3>Email</h3>
+                <input type="email" placeholder="Email" name="email" id="email" required />
+            </div>
+    
+            <div class="password-form">
+                <h3>Password</h3>
+                <input type="password" placeholder="Password" name="password" id="password" required />
+            </div>
+
+            <div class="password-form">
+                <h3>Confirm Password</h3>
+                <input type="text" placeholder="Confirm Password" name="password" id="confirm_password" required />
+            </div>
+    
+            <button id="submit" class="btn btn-success" type="button" disabled>LOGIN</button>
+    
+        </div>
+
+    </section>
+
+    <script type="text/javascript" src="register.js" async></script>
+    
+</body>
+</html>

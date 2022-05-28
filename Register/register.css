@@ -1,0 +1,57 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css");
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    margin: 10% 0;
+    width: max-content;
+    border: solid black 1.5px;
+    border-radius: 10px;
+}
+
+.register-form-header {
+    text-align: center;
+}
+
+.username-form,
+.email-form,
+.password-form,
+#submit {
+    margin: 10px;
+}
+
+.navbar-item {
+    font-weight: 600;
+}
+
+.navbar-item,
+.nav-item {
+    cursor: pointer;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 20rem;
+    height: 30px;
+}
+
+@media only screen and (max-width:600px) {
+
+    .register-form {
+        margin: 25% 0;
+    }
+
+}
