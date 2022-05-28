@@ -57,4 +57,4 @@ confirm_password.addEventListener("change", () => {
 
 });
 
-submit.addEventListener("click", () => window.location.href = "file:///D:/Allproject/Bot/Tugas/Register/register.html");
+submit.addEventListener("click", () => window.location.href = __dirname);
