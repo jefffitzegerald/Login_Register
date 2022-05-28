@@ -25,4 +25,4 @@ password.addEventListener("change", () => {
 
 });
 
-submit.addEventListener("click", () => window.location.href = "file:///D:/Allproject/Bot/Tugas/Login/login.html");
+submit.addEventListener("click", () => window.location.href = `${__dirname}/login.html`);
